@@ -1,7 +1,7 @@
-Designing and developing an educational system based on generative artificial intelligence to transform academic content into visual narrative experiences, featuring adaptive educational assessment.
+### Designing and developing an educational system based on generative artificial intelligence to transform academic content into visual narrative experiences, ### featuring adaptive educational assessment.
 
 
-introduction
+## introduction
 
 In recent years, the education sector has seen an increasing shift toward the integration of artificial intelligence (AI) technologies—specifically generative AI—for the creation, personalization, and delivery of educational content. The use of AI in education has evolved beyond merely answering questions or providing text-based assistance; it is now capable of generating text, images, audio, video, and multimedia educational content. This development has spurred a growing body of research focused on the creation of educational videos using generative AI, and the potential for these videos to serve as an alternative or a supplement to traditional instructional materials.
 A recent review, published in *Frontiers in Computer Science* in 2026, analyzed 15 studies on the use of AI-generated educational videos in higher education. The review identified two primary production models: the first involves the complete generation of videos using AI technologies, while the second utilizes AI as a supporting tool in the video production process. The review also highlighted potential benefits—such as increased efficiency, scalability, personalization, content accessibility, and enhanced engagement and retention—while noting persistent challenges related to content quality, the nature of interaction, and the risks associated with employing AI in the educational process.
@@ -14,7 +14,7 @@ Furthermore, the system can be utilized prior to a lecture, providing the studen
 
 
 
-Research Problem
+## Research Problem
 
 
 Despite significant advancements in generative artificial intelligence (AI) tools for education, many existing systems focus on a single function or a limited set of functions—such as generating video from text, providing interactive explanations, creating assessments, summarizing educational resources, or acting as a virtual tutor. While recent studies indicate that AI-generated educational videos have emerged as a distinct field of research, scientific evidence is still exploring how these videos are produced, utilized, and evaluated, as well as the challenges associated with them.
@@ -22,7 +22,7 @@ The problem addressed by this study lies in the gap between the generation of ed
 This challenge is further compounded by the diversity of academic content, particularly regarding the nature and sequencing of concepts. For some topics, a self-contained narrative may be most appropriate, whereas others may require a continuous storyline that spans multiple lectures. Furthermore, a learner might prefer a realistic, cinematic style for one subject, while favoring animation or a science-fiction aesthetic for another. Therefore, imposing a single video template across all educational materials fails to fully leverage the potential of generative AI. Accordingly, the research problem centers on how to design an educational system based on generative artificial intelligence that can analyze academic content and reorganize it into a flexible, visual, narrative-driven experience—while maintaining a clear connection to the original scholarly source—and subsequently assess the learner’s understanding, analyze their performance, and use these results to provide a more adaptive learning experience.
 
 
-Study Objectives
+## Study Objectives
 
 
 This study aims to design an educational system that leverages generative artificial intelligence to transform academic content into diverse visual narrative experiences, moving beyond the limitations of traditional educational videos. The system analyzes educational texts and files to extract core concepts and their interrelationships, subsequently using them to craft an educational scenario—presented as a short film, a specific scene, an episode within an interconnected series, or a standalone story.
@@ -32,7 +32,7 @@ Another key objective is to utilize the system in the pre-lecture phase to gener
 Ultimately, this study seeks to integrate narrative-based learning, generative AI, multimodal learning, adaptive assessment, and learning analytics into a unified educational framework.
 
 
-theoretical basis for the idea
+## theoretical basis for the idea
 
 
 The concept is based on the premise that learning does not occur solely through reading information; rather, it is influenced by how that information is presented, organized, and interconnected. Storytelling allows information to be placed within a context—incorporating characters, events, challenges, and relationships—which helps the learner follow a sequence of concepts, rather than treating them as a collection of isolated definitions.
@@ -40,7 +40,7 @@ In the proposed system, storytelling does not replace scientific content; instea
 This relationship becomes even more significant when the system is capable of generating multiple representations of the same content. A single concept can be introduced through a theoretical explanation, subsequently represented within a narrative, and finally used as the basis for assessing the learner. This process fosters connections between theoretical knowledge, visual representation, and evaluation.
 
 
-Proposed System Model
+## Proposed System Model
 
 
 The system begins with an educational resource—such as a PDF lecture, a presentation, text-based notes, instructor-provided content, or any other material supported by the system. This material undergoes a content analysis phase to extract key concepts, terminology, definitions, relationships, and the logical sequence of information.
@@ -50,7 +50,7 @@ For standalone narratives, each lecture can feature a unique world, set of chara
 Once the narrative structure is established, the system generates the educational script, scenes, dialogue, and visual descriptions. These elements can then be directed to appropriate models for the generation of images, video, or audio. The system can offer two primary modes of visual experience: a realistic or cinematic style, and an animated or non-realistic visual style. The project does not necessarily require training a foundational video model from scratch; instead, the prototype can leverage existing generative models or APIs. The research contribution, therefore, focuses on designing the instructional workflow, linking the generated content to the source material, managing narrative continuity, and developing an evaluation framework along with the analysis of its results.
 
 
-Narrative flexibility as an element of the system
+## Narrative flexibility as an element of the system
 
 One of the most important characteristics of the proposed system is that it does not treat “film” as the only form of content. The length of the lecture or the nature of its topic may be appropriate for a short scene, while another topic may require an entire story. The series of concepts may be interconnected so that a series is more suitable than stand-alone stories.
 This is why the system allows several forms of submission. The material can be a single movie, a series of sequential episodes, parts of a single story spanning several lectures, or different stories for each lecture. The narrative type can also be changed between episodes or lectures when appropriate to the content or learner preferences.
@@ -58,14 +58,14 @@ This change does not mean that scientific information changes. Change occurs in 
 This concept represents an educational narrative flexibility that can be one of the distinctive elements of the proposed system, while scientifically confirming that the claim is not that these functions individually have not been used previously, but rather in an attempt to integrate them within a single learning journey linked to content, evaluation, and adaptation.
 
 
-Using the system before and after the lecture
+## Using the system before and after the lecture
 
 
 The system is not limited to the post-lecture phase. It can also serve as a preparatory tool, providing students with a short episode or introductory story that outlines key concepts—without, however, acting as a complete substitute for formal academic instruction.
 Following the lecture, the system can utilize the taught material to craft a more detailed narrative experience, transforming abstract concepts into events, characters, and situations. Once the content has been engaged with, the student moves on to the assessment phase.
 In this way, the learning journey is structured around three interconnected stages: preparation, learning through a narrative experience, and post-learning assessment and analysis.
 
-Assessment and Analysis of Learner Performance
+## Assessment and Analysis of Learner Performance
 
 Assessment is a fundamental component of the proposed system, as its success should not be measured solely by video quality or the engaging nature of the narrative. Once an episode or film concludes, the system can generate questions based on the concepts covered and subsequently analyze the learner’s responses.
 If a student repeatedly struggles with a specific concept, the system can flag it as an area requiring review. In a more advanced version, the system could use this insight to provide additional theoretical explanations before re-testing the student.
@@ -73,13 +73,13 @@ Consequently, the system’s role does not end when the video concludes; rather,
 This approach aligns with broader research trends in adaptive education, where recent reviews indicate that artificial intelligence systems can leverage learner data to tailor educational content in a more personalized and dynamic manner.
 
 
-Customization
+## Customization
 
 Personalization in the proposed system is not limited to adjusting the difficulty level of questions; it can also extend to the way content is presented. For instance, one learner might prefer a cinematic, realistic experience, while another might favor animation. Similarly, some learners may prefer a continuous, overarching narrative, whereas others might opt ​​for independent stories tailored to each specific topic.
 This type of personalization enables the creation of a unique learning experience for each individual, all while ensuring that the same educational objectives are met. A field study published in *Scientific Reports* in 2026 underscores the importance of personalization in educational videos; it found that 88.4% of participating students ranked personalized videos as their top preference. Furthermore, when comparing the source of the content alone, there was a general preference for material featuring human-recorded elements.
 Consequently, the system does not posit that artificial intelligence should replace the teacher; rather, it serves as a tool that expands the educational system's capacity to deliver diverse, personalized content.
 
-Ethical Guidelines and Safety
+## Ethical Guidelines and Safety
 
 
 Since the proposed system relies on technologies for generating text, images, and video, a safety and content-control mechanism is an integral part of its design—not merely an optional, secondary feature.
@@ -89,7 +89,7 @@ Furthermore, the safety layer can be extended to restrict or block other forms o
 This layer reflects a fundamental design principle: the fact that an artificial intelligence system is capable of generating certain content does not imply that such content should be permitted.
 
 
-Data and the Problem of System Training
+## Data and the Problem of System Training
 
 A key aspect of the project is identifying the data source upon which the system will rely. The proposed system does not necessarily require the creation of a massive dataset—such as thousands of films or scripts—to train a video model from scratch. Instead, the primary source of educational data consists of content provided by users or instructors, including lecture files, presentations, notes, texts, and other educational materials.
 The system utilizes this data to extract the necessary knowledge and concepts, subsequently employing existing generative AI models to produce scripts, scenes, and visual content. In this respect, the project differs from one focused on training a new foundational model for video generation.
@@ -97,7 +97,7 @@ As for system evaluation data, this may comprise a curated, limited set of lectu
 Should future phases necessitate the training of a specialized model or the fine-tuning of an existing one, this could be addressed as a subsequent research stage; it is not a prerequisite for demonstrating the feasibility of building the initial prototype.
 
 
-Related Systems and Platforms
+## Related Systems and Platforms
 
 
 There is currently a range of tools that address certain aspects of the proposed system—whether in the production of educational videos, the comprehension of source materials, personalization, or assessment. From a scholarly perspective, it is important to acknowledge these existing systems rather than claiming that no similar solutions exist.
@@ -106,7 +106,7 @@ Furthermore, several Arabic-language platforms have emerged in the field of AI-s
 The focus of this project lies in integrating flexible educational storytelling, continuity between episodes, the ability to adapt narrative styles, visual generation, post-viewing assessment, performance analysis, educational personalization, and safety controls—all within a single, cohesive learning journey.
 
 
-Research gap
+## Research gap
 
 A review of existing literature and systems reveals that generative artificial intelligence is now capable of producing educational videos, and that personalization has become an active area of ​​research. Furthermore, recent studies have begun to evaluate the impact of AI-generated videos on learning outcomes and student preferences.
 However, the proposed system is motivated by the observation that these components often appear in isolated solutions or disparate functions—with some tools focusing on video generation, others on analyzing source material, facilitating interactive instruction, or handling assessments and personalization.
@@ -114,7 +114,7 @@ Consequently, this project addresses a gap by designing an integrated educationa
 The proposed system is further distinguished by its treatment of narrative as a flexible educational structure rather than a static visual template. A single body of content can be presented in various formats—such as a standalone film, a serialized series, or individual episodes—with the ability to shift narrative genres across different lectures, all while maintaining the scientific content as the primary, authoritative reference.
 
 
-Conceptual comparison between existing systems and the proposed project
+## Conceptual comparison between existing systems and the proposed project
 
 
 | Criterion | Tools for Comprehending Educational Resources | Educational Video Creation Tools | Interactive and Adaptive Learning Tools | Proposed Project |
@@ -133,7 +133,7 @@ Conceptual comparison between existing systems and the proposed project
 The table illustrates that the fundamental difference does not lie in the proposed system inventing a new video-generation technique, but rather in how it integrates multiple techniques into a single learning architecture.
 
 
-innovative aspect of the project
+## innovative aspect of the project
 
 The proposed innovation is best understood as an advancement in system design and functional integration, rather than the creation of a new foundational artificial intelligence model. The system does not aim to compete with global models by training a new generative video model; instead, it establishes an intelligent pedagogical layer that leverages existing generative models, directing them toward specific learning objectives.
 A key feature is the concept of "flexible educational storytelling," which allows a lecture to be transformed into a standalone film, an episode within a multi-lecture educational series, or an independent narrative—with the ability to adapt the storytelling style and visual genre to suit different subjects.
@@ -142,7 +142,7 @@ A third aspect is the system’s versatility: it can be employed both as a prepa
 A fourth aspect is the inclusion of a safety and ethics layer that governs the types of content the system can generate. This includes strict prohibitions—such as preventing the creation of visual representations of prophets, messengers, or sacred religious figures—while providing non-figurative alternatives whenever necessary.
 
 
-Scope of Implementation in the Graduation Project
+## Scope of Implementation in the Graduation Project
 
 Although the full scope of the system is extensive, the graduation project can begin with a limited prototype that demonstrates the core concept. This prototype could start with specific educational materials, extract key concepts, generate a short scenario, produce a limited number of scenes, and finally assemble them into a brief video experience.
 The prototype could focus on a short educational segment rather than attempting to produce a full-length cinematic film. It could also implement either a realistic or an animated style—depending on the capabilities of the available models—by utilizing the APIs of existing generative models, rather than training a video model from scratch.
@@ -150,14 +150,14 @@ Subsequently, features such as AI-generated testing, analysis of results, and th
 Distinguishing between the initial prototype and the long-term vision is essential to ensure the project remains feasible as a graduation project, while still maintaining a scalable research vision.
 
 
-Scientific and Practical Significance
+## Scientific and Practical Significance
 
 The scientific significance of this project stems from the intersection of several contemporary research fields, including generative artificial intelligence, multimodal learning, narrative-based learning, adaptive learning, learning analytics, and AI-generated assessment. Furthermore, there is a growing research interest in AI-generated educational videos; recent studies are exploring not only the feasibility of producing such content but also how it is utilized and its subsequent impact on the learner's experience.
 From a practical perspective, the project addresses a common challenge in higher education: some students struggle to engage with lengthy theoretical lectures when presented solely through text, slides, or traditional instructional formats. The proposed system offers an additional representation of the course material, helping to make concepts clearer and more coherent—all while preserving the original academic source material and the instructor's role.
 Additionally, the system enables instructors to utilize the same content in various ways, while allowing students to select the presentation format that best suits their individual needs—a feature that aligns with the broader trend toward personalization in AI-supported education.
 
 
-Conclusion
+## Conclusion
 
 
 This study proposes the design of an educational system based on generative artificial intelligence. Rather than merely converting lectures into videos, the system aims to construct an integrated narrative and visual learning experience—beginning with academic content and concluding with the assessment of student learning and the analysis of their performance.
@@ -167,7 +167,7 @@ Recent research indicates that AI-generated educational videos have emerged as a
 
 
 
-References
+## References
 
 
 
